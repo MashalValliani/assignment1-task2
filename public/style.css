@@ -1,0 +1,195 @@
+.picture {
+    height: 600px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.btn-floating {
+    background-color: #ee6e73;
+    position: absolute;
+    top: 300px;
+    height: fit-content;
+    width: fit-content;
+}
+ #lander {
+    box-align: center;
+   padding-top: 10px;
+    height: 45px;
+    width: 45px;
+    
+}
+ .page-footer{
+    background-color: #ee6e73;
+ }
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+        }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+#signUp{
+    background-color: #000000;
+}
+
+
+#dropdown{
+    margin-top: 49pt;
+    margin-left: -40pt;
+    margin-right: 10px;
+}
+
+#dislikeButton {
+    box-shadow: darkgray;
+    box-align: center;
+    height: 50px;
+    width: 50px;
+    background-color: #FFFFFF;
+    margin-left: 30%;    
+ }
+
+ #likeButton {
+    box-shadow: darkgray;
+    box-align: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 20pt;
+ }
+
+ #likeButton:hover{
+     background-color: rgba(182, 179, 179, 0.815);
+ }
+ 
+ #dislikeButton:hover{
+    background-color: rgba(182, 179, 179, 0.815);
+}
+.card {
+    height: 500px;
+    margin-top: 9%;
+    width: 400px;
+    margin-left: 60%;
+}
+#signup-page {
+    padding-top: 7%;
+    width: 700px;
+}
+#profilePicture{
+    height: 300px;
+    width: 400px;
+}
+
+#bio{
+    font-size: 20pt;
+}
+
+#modal1{
+    top: 20%;
+}
+
+.column {
+    float: left;
+    margin-left: 70px;
+}
+
+#matchProfile1{
+    position: absolute;
+    left: 2%;
+    top: 20%;
+    height: 350px;
+    width: 250px;
+}
+
+#matchProfile2{
+    position: absolute;
+    left: 61%;
+    top: 20%;
+    height: 350px;
+    width: 250px;
+}
+
+#heart{
+    position: absolute;
+    left: 35.5%;
+    top: 30%;
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+}
+
+#matched{
+    visibility: hidden;
+    position: absolute;
+    background-color: floralwhite;
+    left: 25%;
+    top: 15%;
+    width: 50%;
+    height: 80%;
+    animation: fadeIn ease 6s;
+    -webkit-animation: fadeIn ease 6s;
+    -moz-animation: fadeIn ease 6s;
+    -o-animation: fadeIn ease 6s;
+    -ms-animation: fadeIn ease 6s;
+}
+
+
+#heading{
+    top: 0%;
+    text-decoration-color: #FFFFFF;
+}
+ 
+@keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+}
+  
+@-moz-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
